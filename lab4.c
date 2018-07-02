@@ -133,7 +133,7 @@ const int measures = 3;
 size_t mem = 0;
 
 // meltdown
-inline byte meltdown_try_read(void *paddr)
+static inline byte meltdown_try_read(void *paddr)
 {
     int j;
 
